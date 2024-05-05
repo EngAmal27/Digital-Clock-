@@ -34,3 +34,11 @@ body{
     text-shadow: 0 0 10px hsl(0, 2%, 62%);
     font-family: monospace;
 }
+
+
+
+@media (max-width: 768px) {
+    .digital-clock {
+        font-size: 3rem; /* Adjust font size for smaller screens */
+    }
+}
