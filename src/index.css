@@ -1,0 +1,36 @@
+body{
+    background-image: url(assets/Lily.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}   
+
+.digital-clock{
+    font-size: 8rem;
+    display: flex;
+    width: 100vw;
+    backdrop-filter: blur(5px);  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.233);
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: hsl(0, 17%, 92%);
+    text-shadow: 0 0 10px hsl(0, 2%, 62%);
+    font-family: monospace;
+}
